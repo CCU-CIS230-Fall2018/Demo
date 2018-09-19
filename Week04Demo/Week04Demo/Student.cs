@@ -26,7 +26,7 @@ namespace Week04Demo
 
         public int CompareTo(Student other)
         {
-            return this.LastName.CompareTo(other.LastName);
+            return String.Concat(this.LastName,this.FirstName).CompareTo(String.Concat(other.LastName,other.FirstName));
         }
 
     }

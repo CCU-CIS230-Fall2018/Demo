@@ -15,6 +15,16 @@ namespace Week04Demo
             LastName = lastName;
         }
 
+        public Person()
+        {
+            ;
+        }
+
+        public Person(string firstName)
+        {
+            FirstName = firstName;
+        }
+
         public string FirstName { get; set; } //property allows accessors
         //public string firstName; // p67 a field stores characterstic data for a class
 

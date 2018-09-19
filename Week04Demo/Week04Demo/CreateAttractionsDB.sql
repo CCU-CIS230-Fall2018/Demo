@@ -1,6 +1,9 @@
 ﻿CREATE DATABASE Attractions;
 GO
 
+USE Attractions;
+GO
+
 CREATE TABLE Countries
 (
 	CountryID tinyint PRIMARY KEY,
